@@ -5,6 +5,16 @@ Description
 
 machinzone-test - TODO: Write a module description
 
+Usage
+=====
+
+```
+git clone https://github.com/sivir/mztest.git
+cd mztest
+vagrant up
+firefox http://localhost:8073
+```
+
 Requirements
 ============
 
@@ -47,6 +57,10 @@ Spec unit tests (spec/classes/mztest_spec.rb):
 bundle exec rake unit
 ```
 
+Integration tests (serverspec/spec/mztest_spec.rb):
+```
+bundle exec rake integ
+```
 
 
 
